@@ -35,7 +35,7 @@ body{
 }
 
 #opciones.container button:active{
-    background-color: coral;
+    background-color: rgb(220, 243, 15);
     border: 3px solid black;
     color: blue;
 }
@@ -57,7 +57,7 @@ body{
 }
 
 .nuevo-juego-popup{
-    background-color: rgb(122, 21, 21);
+    background-color: rgb(247, 244, 244);
     position: absolute;
     left: 0%;
     top: 0%;
