@@ -6,17 +6,66 @@
     font-family: 'Josefin Sans'
 }
 body{
-    background-color: rgb(216, 226, 123);
+    background-color: rgb(97, 100, 98);
 }
 
 .container{
     font-size: 16px;
-    background-color: rgb(17, 173, 194);
+    background-color: rgb(61, 77, 121);
     width: 90vh;
     max-width: 34em;  
     position: absolute;
     transform: translate(70%,90%);
     padding: 3em;
     border-radius: 20px;
-    box-shadow: 0 1.2em 2.4em rgba(4, 29, 255, 0.973);
+    box-shadow: 0 1.2em 2.4em rgba(21, 21, 31, 0.973);
+}
+
+#opciones-container div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2em, 0 2.4em 0;
+}
+
+#opciones.container button:disabled{
+    border:3px solid grey;
+    color: grey;
+    background-color: white;
+}
+
+#opciones.container button:active{
+    background-color: coral;
+    border: 3px solid black;
+    color: blue;
+}
+
+.letras-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6em;
+}
+
+.letras-container button{
+    height: 2.4em;
+    width: 2.4em;
+    border-radius: 0.3em;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nuevo-juego-popup{
+    background-color: white;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.6em;
 }
